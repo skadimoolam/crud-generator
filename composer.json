@@ -15,6 +15,13 @@
             "Skadimoolam\\CrudGenerator\\": "src/"
         }
     },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Skadimoolam\\CrudGenerator\\ServiceProvider"
+            ]
+        },
+    },
     "require": {
         "php": ">=7.0",
         "laravel/framework": "^7.0"
